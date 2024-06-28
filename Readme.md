@@ -5,3 +5,5 @@ The following is a generalized implementation of RAFT Consensus for use within E
 The Atlas Protocol, which is the broader protocol defining how nodes within LayerLens evaluate and reach agreement upon data for new evaluation requests, utilizes Raft Consensus to assign new evaluation tasks to individual operators, select localized leaders for clusters, and aggregrate final scores for each model-evalaution dataset pair. 
 
 
+## Generalized for AVSs
+This code can be adopted for use within any AVS that requires operators to reach agreement upon some individual datapoint. Examples inlcude: price oracles, layer-2 protocols, DA protocols, and more. 
